@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GraphController">
+    <children>
+        <BorderPane prefHeight="150.0" prefWidth="300.0">
+            <left>
+                <LineChart fx:id="chartZscore" maxWidth="1000.0" minWidth="220.0" prefHeight="200.0" prefWidth="270.0" BorderPane.alignment="TOP_LEFT">
+                    <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </LineChart>
+            </left>
+            <right>
+                <LineChart fx:id="chartCorrelated" maxWidth="150.0" minWidth="270.0" BorderPane.alignment="CENTER">
+                    <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </LineChart>
+            </right>
+        </BorderPane>
+        <BorderPane prefHeight="250.0" prefWidth="440.0">
+            <top>
+                <ScatterChart fx:id="chartCombined" prefHeight="251.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+                    <xAxis>
+                        <NumberAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </ScatterChart>
+            </top>
+        </BorderPane>
+    </children>
+</VBox>

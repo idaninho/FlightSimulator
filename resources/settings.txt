@@ -1,0 +1,59 @@
+ip,127.0.0.1
+port,5400
+rateToSecond,10
+regFlight, reg_flight
+AnomalyAlgorithm, temp
+aileron, aileron
+elevator, elevator
+rudder,rudder
+flaps, flaps
+slats, slats
+speedbrake, speedbrake
+throttle, throttle
+throttle1, throttle
+engine-pump, engine-pump
+engine-pump1, engine-pump
+electric-pump, electric-pump
+electric-pump1, electric-pump
+external-power, external-power
+APU-generator, APU-generator
+latitude-deg, latitude-deg
+longitude-deg, longitude-deg
+altitude-ft, altitude-ft
+roll-deg, roll-deg
+pitch-deg, pitch-deg
+heading-deg, heading-deg
+side-slip-deg, side-slip-deg
+airspeed-kt, airspeed-kt
+glideslope, glideslope
+vertical-speed-fps, vertical-speed-fps
+airspeed-indicator_indicated-speed-kt, airspeed-indicator_indicated-speed-kt
+altimeter_indicated-altitude-ft, altimeter_indicated-altitude-ft
+altimeter_pressure-alt-ft, altimeter_pressure-alt-ft
+attitude-indicator_indicated-pitch-deg, attitude-indicator_indicated-pitch-deg
+attitude-indicator_indicated-roll-deg, attitude-indicator_indicated-roll-deg
+attitude-indicator_internal-pitch-deg, attitude-indicator_internal-pitch-deg
+attitude-indicator_internal-roll-deg, attitude-indicator_internal-roll-deg
+encoder_indicated-altitude-ft, encoder_indicated-altitude-ft
+encoder_pressure-alt-ft, encoder_pressure-alt-ft
+gps_indicated-altitude-ft, gps_indicated-altitude-ft
+gps_indicated-ground-speed-kt, gps_indicated-ground-speed-kt
+gps_indicated-vertical-speed, gps_indicated-vertical-speed
+indicated-heading-deg, indicated-heading-deg
+magnetic-compass_indicated-heading-deg, magnetic-compass_indicated-heading-deg
+slip-skid-ball_indicated-slip-skid, slip-skid-ball_indicated-slip-skid
+turn-indicator_indicated-turn-rate, turn-indicator_indicated-turn-rate
+vertical-speed-indicator_indicated-speed-fpm, vertical-speed-indicator_indicated-speed-fpm
+engine_rpm, engine_rpm
+stop
+aileron,-0.34:0.214
+elevator,-0.904:0.164
+rudder,0:0
+throttle,0:1
+Height,-13.62:699.26
+Speed,0:93.41
+Degrees,0:357.95
+Yaw,-28.06:89.87
+Pitch,-9.503:16.65
+Roll,-37.44:40
+end

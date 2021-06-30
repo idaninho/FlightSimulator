@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="700.0" prefHeight="70.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MyPlayerController">
+    <children>
+        <AnchorPane maxHeight="60.0" maxWidth="700.0" minHeight="60.0" minWidth="700.0" prefHeight="60.0" prefWidth="700.0">
+            <children>
+                <Slider fx:id="timeSlider" layoutX="14.0" layoutY="21.0" onMouseClicked="#setTimeSlider" onMouseDragged="#setTimeSlider" prefHeight="14.0" prefWidth="501.0" />
+                <Label fx:id="TimeStep" layoutX="524.0" layoutY="19.0" maxHeight="130.0" text="Label" />
+                <Button layoutX="307.0" layoutY="35.0" mnemonicParsing="false" onAction="#forward" text="&gt;&gt;" />
+                <Button layoutX="27.0" layoutY="35.0" mnemonicParsing="false" onAction="#rewind" text="&lt;&lt;" />
+                <Button layoutX="145.0" layoutY="35.0" mnemonicParsing="false" onAction="#pause" text="Pause" />
+                <Button layoutX="80.0" layoutY="35.0" mnemonicParsing="false" onAction="#play" text="Play" />
+                <TextField fx:id="speedControl" layoutX="439.0" layoutY="35.0" onAction="#setSpeedControl" prefHeight="25.0" prefWidth="47.0" />
+                <Text layoutX="369.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Play Speed" />
+                <Button layoutX="235.0" layoutY="35.0" mnemonicParsing="false" onAction="#stop" text="Stop" />
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>
